@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "author": "Erin Fahy <efahy@stanford.edu>",
-  "description": "A simple helpful robot for your Company",
+  "description": "A robot for heaven deploys",
   "dependencies": {
     "hubot": "^2.18.0",
+    "hubot-auto-deploy": "^0.1.9",
+    "hubot-deploy": "^0.12.12",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
