@@ -6,8 +6,6 @@
 # server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 server 'sulbot-prod.stanford.edu', user: 'sulbot', roles: %w{app db web}
-Capistrano::OneTimeKey.generate_one_time_key!
-
 
 # role-based syntax
 # ==================
