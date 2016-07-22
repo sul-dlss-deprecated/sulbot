@@ -1,0 +1,9 @@
+{
+  "purl-fetcher": {
+    "provider": "capistrano",
+    "auto_merge": false,
+    "repository": "sul-dlss/purl-fetcher",
+    "environments": ["dev"],
+    "allowed_rooms": ["slackbot-test"]
+  }
+}
