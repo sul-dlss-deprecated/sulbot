@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name"          : "sulbot",
+    "script"        : "bin/hubot",
+    "args"          : "-a slack -d",
+    "interpreter"   : "bash",
+    "merge_logs"    : true,
+    "log_file"      : "log/sulbot.log",
+    "error_file"    : "log/sulbot_error.log"
+  }]
+}

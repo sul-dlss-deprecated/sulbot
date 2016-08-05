@@ -1,11 +1,11 @@
 {
   "name": "sulbot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "author": "Erin Fahy <efahy@stanford.edu>",
   "description": "A robot for heaven deploys",
   "scripts": {
-    "pm2:start": "pm2 start bin/hubot --name sulbot --interpreter bash  -l sulbot.log -- -a slack -d",
+    "pm2:start": "pm2 start pm2.json",
     "pm2:restart": "pm2 stop sulbot && pm2 delete sulbot && npm run pm2:start",
     "pm2": "if pm2 list | grep sulbot; then npm run pm2:restart; else npm run pm2:start; fi"
   },
